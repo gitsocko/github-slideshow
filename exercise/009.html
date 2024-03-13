@@ -6,11 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="../asset/css/style.css">
   </head>
-  <body>
+  <body id="body009">
 		<div><a href="../index.html">&lt; Home</a></div>
 		<div>
-			<h1>Exercise 9</h1>
-
+			<h1>Old-Time Computer Museum</h1>
+			<h2>Make a Pledge</h2>
+			<form action="?act=submit" method="GET">
+				<div>
+					<label for="fName">Your Full Name</label>
+					<input type="text" id="fName" name="fName">
+				</div>
+				<div class="backoff">
+					<label for="fAdStr">Street Address</label>
+					<textarea name="fAdStr" id="fAdStr"></textarea>
+				</div>
+				<div>
+					<label for="fAdCity">City</label>
+					<input type="text" id="fAdCity" name="fAdCity">
+				</div>
+				<div>
+					<label for="fAdSt">State</label>
+					<input type="text" id="fAdSt" name="fAdSt">
+				</div>
+				<div>
+					<label for="fAdZip">Zip Code</label>
+					<input type="text" id="fAdZip" name="fAdZip">
+				</div>
+				<div>
+					<label for="fPhone">Phone Number</label>
+					<input type="text" id="fPhone" name="fPhone">
+				</div>
+				<div>
+					<label for="fEmail">Email Address</label>
+					<input type="text" id="fEmail" name="fEmail">
+				</div>
+				<div>
+					<label for="fLvl">Donation Level</label>
+					<span class="radioGroup">
+						<div>
+							<input type="radio" name="fLvl" id="fLvlA" value="20">
+							<label for="fLvlA">Student (&dollar;20)</label>
+						</div>
+						<div>
+							<input type="radio" name="fLvl" id="fLvlB" value="45">
+							<label for="">Individual (&dollar;45)</label>
+						</div>
+						<div>
+							<input type="radio" name="fLvl" id="fLvlC" value="60">
+							<label>Family (&dollar;60)</label>
+						</div>
+						<div>
+							<input type="radio" name="fLvl" id="fLvlD" value="250">
+							<label for="fLvlD">Patron (&dollar;250)</label>
+						</div>
+						<div>
+							<input type="radio" name="fLvl" id="fLvlE" value="750">
+							<label for="fLvlE">Benefactor (&dollar;750)</label>
+						</div>
+					</span>
+				</div>
+				<div>
+					<label for="fFor">Honoree / In Memory of</label>
+					<input type="text" id="fFor" name="fFor" placeholder="Honoree / Decedent Full Name">
+				</div>
+				<input type="submit" value="Submit">
+			</form>
 		</div>
 	</body>
 </html>

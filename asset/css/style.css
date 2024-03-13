@@ -1,0 +1,402 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+  font-family: Arial;
+}
+a {
+  color: #829ab1;
+}
+body {
+  background-color: #222;
+  color: #ddd;
+  margin: 21px;
+}
+body#body007 img#iBeans,
+body#body008 img#iBeans,
+body#body007 img#iDrink,
+body#body008 img#iDrink,
+body#body007 img#iLogo,
+body#body008 img#iLogo {
+  height: 210px;
+  width: auto;
+}
+body#body007 img#iLogo,
+body#body008 img#iLogo {
+  margin: -49px auto 0 auto;
+  height: 193px;
+}
+body#body008 {
+  font-family: Verdana, Arial, serif;
+  font-size: 100%;
+  background-color: #F6F3ED;
+  /* Coffee shop color */
+  margin: 0;
+  /* link styles */
+  /* header styles */
+  /* nav styles */
+  /* main "products" styles */
+  /*
+
+		/* aside "hours" styles */
+  /* misc styles */
+}
+body#body008 a:link,
+body#body008 a:visited {
+  color: #DC6903;
+}
+body#body008 a:focus,
+body#body008 a:hover,
+body#body008 a:active {
+  color: #F9AB33;
+}
+body#body008 a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.2em;
+}
+body#body008 header {
+  color: white;
+  background: url(/~dowlind2/asset/img/007banner.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  height: 13em;
+}
+body#body008 header h1 {
+  margin-top: 1.5em;
+}
+body#body008 header p {
+  display: none;
+}
+body#body008 nav,
+body#body008 footer {
+  font-family: verdana, sans-serif;
+  background-color: #783F27;
+}
+body#body008 nav ul li a:link,
+body#body008 nav ul li a:visited {
+  color: #F9AB33;
+}
+body#body008 nav ul li a:focus,
+body#body008 nav ul li a:hover,
+body#body008 nav ul li a:active {
+  color: #fff;
+}
+body#body008 nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+body#body008 nav ul li {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  flex: 1 1 50%;
+}
+body#body008 nav ul li a {
+  display: block;
+  border: 1px solid;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  margin: 0.25em;
+}
+body#body008 main {
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #555;
+  margin: 2.5%;
+}
+body#body008 h2 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+body#body008 h3 {
+  font-family: Verdana, sans-serif;
+  font-weight: normal;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #7A0002;
+  border-top: 1px solid;
+  margin-top: 1.5em;
+}
+body#body008 p.more {
+  font-family: verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  clear: left;
+}
+body#body008 main img {
+  display: block;
+  margin: 0.5em auto;
+}
+body#body008 aside {
+  background: url(/~dowlind2/asset/img/ex008/scallop_top.png) repeat-x left top;
+  background-color: #F6F3ED;
+  padding: 1em;
+}
+body#body008 footer {
+  color: #EADDC4;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 1em;
+}
+body#body008 .day {
+  color: #783F27;
+  font-family: verdana, sans-serif;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+body#body008 .linelength {
+  background: yellow;
+}
+body#body008 img#iLogo {
+  height: 125px;
+}
+body#body007 {
+  color: tan;
+  font-family: Georgia, serif;
+  font-size: 100%;
+  background-color: #F6F3ED;
+  /* Coffee shop color */
+  margin: 0;
+  /* link styles */
+  /* header styles */
+  /* nav styles */
+  /* main "products" styles */
+  /* aside "hours" styles */
+  /* misc styles */
+}
+body#body007 a:link,
+body#body007 a:visited {
+  color: #7A0002;
+  /* Coffee shop color */
+}
+body#body007 a:focus,
+body#body007 a:hover,
+body#body007 a:active {
+  color: #DC6903;
+  /* Coffee shop color */
+}
+body#body007 a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.2em;
+}
+body#body007 header {
+  color: #F6F3ED;
+  /* Coffee shop color */
+  background: url(/~dowlind2/asset/img/007banner.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  height: 15em;
+}
+body#body007 header p {
+  font-style: italic;
+  font-size: 1.2em;
+  margin-top: -12px;
+}
+body#body007 header h1 {
+  margin-top: 1.5em;
+}
+body#body007 nav,
+body#body007 footer {
+  font-family: verdana, sans-serif;
+  background-color: #783F27;
+}
+body#body007 nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+body#body007 nav ul li {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+body#body007 nav ul li:first-child {
+  left: 7px;
+  position: fixed;
+}
+body#body007 nav ul li:first-child a:link,
+body#body007 nav ul li:first-child a:visited {
+  color: white;
+}
+body#body007 nav ul li a:link,
+body#body007 nav ul li a:visited {
+  color: #DC6903;
+  /* Coffee shop color */
+}
+body#body007 nav ul li a:focus,
+body#body007 nav ul li a:hover,
+body#body007 nav ul li a:active {
+  color: #F6F3ED;
+  /* Coffee shop color */
+}
+body#body007 nav ul li a {
+  display: block;
+  border: 1px solid;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+}
+body#body007 main {
+  font-family: 'Stint Ultra Expanded', Georgia, serif;
+  background-color: #F6F3ED;
+  /* Coffee shop color */
+  line-height: 1.8em;
+  color: #555;
+  padding: 1em;
+  border: double 4px #EADDC4;
+  border-radius: 25px;
+  margin: 2.5%;
+}
+body#body007 h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #7A0002;
+  /* Coffee shop color */
+  border-top: 1px solid;
+  border-left: 3px solid;
+  padding-left: 1em;
+  margin-top: 2.5em;
+}
+body#body007 p.more {
+  font-family: verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  clear: left;
+}
+body#body007 main img {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+body#body007 aside {
+  background: url(/~dowlind2/asset/img/scallop.png) repeat-y left top;
+  background-color: #F6F3ED;
+  /* Coffee shop color */
+  padding: 1em;
+  padding-left: 45px;
+  border-top-right-radius: 25px;
+  margin: 1em 2.5% 0 10%;
+}
+body#body007 footer {
+  color: #EADDC4;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 1em;
+}
+body#body007 #award {
+  position: fixed;
+  top: 30px;
+  left: 50px;
+}
+body#body007 h2 {
+  font-family: 'Stint Ultra Expanded', Georgia, serif;
+}
+body#body007 .day {
+  color: #783F27;
+  font-family: verdana, sans-serif;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+body#body006 {
+  margin: 10px;
+}
+body#body006 h1,
+body#body006 h2,
+body#body006 h3,
+body#body006 h4,
+body#body006 h5,
+body#body006 h6 {
+  color: lightblue;
+}
+body#body006 p {
+  margin: 10px;
+}
+body#body006 #dContentBox {
+  margin: 21px;
+  position: absolute;
+}
+body#body006 #dContentBox #dContent {
+  border: 1px solid gray;
+  float: left;
+  padding: 14px;
+  padding-top: 3px;
+  max-width: 75%;
+  width: auto;
+}
+body#body006 #dContentBox #dContent #pHome {
+  margin-top: 49px;
+}
+body#body006 #dContentBox #dSidebar {
+  background-image: url("/~dowlind2/asset/img/escargot.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: right;
+  height: 345px;
+  margin-left: 14px;
+  width: 250px;
+}
+body#body006 #dContentBox #dSidebar #dRibbon {
+  background-image: url("/~dowlind2/asset/img/blue-ribbon-sm.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 125px;
+  width: 125px;
+  z-index: 2;
+}
+body#body005::after {
+  content: "";
+  background-image: url("/~dowlind2/asset/img/pewterpot.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.09;
+  z-index: -10;
+}
+ol li {
+  margin-bottom: 14px;
+}
+p {
+  padding: 0 0 0 14px;
+}
+ul {
+  padding: 0 14px;
+}
+ul li {
+  list-style-type: none;
+  padding: 3px 0;
+}
+i {
+  color: #aaa;
+  font-size: 12px;
+}
+img {
+  display: block;
+  height: auto;
+}
+img#imgCcLock {
+  width: 300px;
+}
+img#imgPugTy {
+  width: 300px;
+}
+.imgbox {
+  border: 1px solid #333;
+  margin: 7px auto;
+  padding: 14px;
+  width: 300px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,395 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+	font-family: Arial;
+}
+a {
+	color: #829ab1;
+}
+body {
+	background-color: #222;
+	color: #ddd;
+	margin:21px;
+
+	&#body007, &#body008 {
+		img {
+			&#iBeans, &#iDrink, &#iLogo {
+				height:210px;
+				width:auto;
+			}
+			&#iLogo {
+				margin:-49px auto 0 auto;
+				height:193px;
+			}
+		}
+	}
+	&#body008 {
+		font-family: Verdana, Arial, serif;
+		font-size: 100%;
+		background-color: #F6F3ED; /* Coffee shop color */
+		margin: 0;
+
+		/* link styles */
+		a:link, a:visited {
+			color: #DC6903;
+		}
+		a:focus, a:hover, a:active {
+			color: #F9AB33;
+		}
+
+		a {
+			text-decoration: none;
+			border-bottom: 1px dotted;
+			padding-bottom: .2em;
+		}
+
+		/* header styles */
+		header {
+			color: white;
+			background:  url(/~dowlind2/asset/img/007banner.jpg) no-repeat center center;
+			background-size: cover;
+			text-align: center;
+			height: 13em;
+		}
+		header h1 {
+			margin-top: 1.5em;
+		}
+		header p {
+			display: none;
+		}
+
+		/* nav styles */
+		nav, footer {
+			font-family: verdana, sans-serif;
+			background-color: #783F27;
+		}
+		nav ul li a:link, nav ul li a:visited {
+			color: #F9AB33;
+		}
+		nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+			color: #fff;
+		}
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		nav ul li {
+			font-size: .8em;
+			text-transform: uppercase;
+			letter-spacing: .2em;
+			flex: 1 1 50%;
+		}
+		nav ul li a {
+			display: block;
+			border: 1px solid;
+			padding: .5em 1em;
+			border-radius: .5em;
+			margin: .25em;
+		}
+
+		/* main "products" styles */
+		main {
+			font-size: 1em;
+			line-height: 1.4em;
+			color: #555;
+			margin: 2.5%;
+
+		}
+		h2 {
+			font-family: Georgia, serif;
+			font-weight: normal;
+			font-size: 1.5em;
+		}
+		h3 {
+			font-family: Verdana, sans-serif;
+			font-weight: normal;
+			font-size: 1.2em;
+			text-transform: uppercase;
+			letter-spacing: .2em;
+			color: #7A0002;
+			border-top: 1px solid;
+			margin-top: 1.5em;
+		}
+		p.more {
+			font-family: verdana, sans-serif;
+			text-transform: uppercase;
+			font-size: .8em;
+			clear: left;
+		}
+		main img {
+			display: block;
+			margin: .5em auto;
+		}
+		/*
+
+		/* aside "hours" styles */
+		aside {
+			background: url(/~dowlind2/asset/img/ex008/scallop_top.png) repeat-x left top;
+			background-color: #F6F3ED;
+			padding: 1em;
+
+		}
+		/* misc styles */
+		footer {
+			color: #EADDC4;
+			text-align: center;
+			font-size: .8em;
+			padding: 1em;
+		}
+		.day {
+			color: #783F27;
+			font-family: verdana, sans-serif;
+			font-size: .8em;
+			text-transform: uppercase;
+		}
+		.linelength {
+			background: yellow;
+		}
+
+		img {
+			&#iLogo {
+				height:125px;
+			}
+		}
+	}
+
+	&#body007 {
+		color:tan;
+		font-family: Georgia, serif;
+		font-size: 100%;
+		background-color: #F6F3ED; /* Coffee shop color */
+		margin: 0;
+
+		/* link styles */
+		a:link, a:visited {
+			color: #7A0002; /* Coffee shop color */
+		}
+		a:focus, a:hover, a:active {
+			color: #DC6903; /* Coffee shop color */
+		}
+
+		a {
+			text-decoration: none;
+			border-bottom: 1px dotted;
+			padding-bottom: .2em;
+		}
+
+		/* header styles */
+		header {
+			color: #F6F3ED; /* Coffee shop color */
+			background:  url(/~dowlind2/asset/img/007banner.jpg) no-repeat center center;
+			background-size: cover;
+			text-align: center;
+			height: 15em;
+		}
+		header p {
+			font-style: italic;
+			font-size: 1.2em;
+			margin-top: -12px;
+		}
+		header h1 {
+			margin-top: 1.5em;
+		}
+
+		/* nav styles */
+		nav, footer {
+			font-family: verdana, sans-serif;
+			background-color: #783F27;
+		}
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			display:flex;
+			justify-content: center;
+			li {
+				font-size: .8em;
+				text-transform: uppercase;
+				letter-spacing: .2em;
+				&:first-child {
+					left:7px;
+					position:fixed;
+					a:link, a:visited {
+						color:white;
+					}
+				}
+				a:link,  a:visited {
+					color: #DC6903; /* Coffee shop color */
+				}
+				a:focus, a:hover, a:active {
+					color: #F6F3ED; /* Coffee shop color */
+				}
+			}
+		}
+		nav ul li a {
+			display: block;
+			border: 1px solid;
+			border-radius: .5em;
+			padding: .5em 1em;
+			margin: .5em;
+		}
+
+		/* main "products" styles */
+		main {
+			font-family: 'Stint Ultra Expanded', Georgia, serif;
+			background-color: #F6F3ED; /* Coffee shop color */
+			line-height: 1.8em;
+			color: #555;
+			padding: 1em;
+			border: double 4px #EADDC4;
+			border-radius: 25px;
+			margin: 2.5%;
+		}
+		h3 {
+			text-transform: uppercase;
+			letter-spacing: .2em;
+			color: #7A0002; /* Coffee shop color */
+			border-top: 1px solid;
+			border-left: 3px solid;
+			padding-left: 1em;
+			margin-top: 2.5em;
+		}
+		p.more {
+			font-family: verdana, sans-serif;
+			text-transform: uppercase;
+			font-size: .8em;
+			clear: left;
+		}
+		main img {
+			float: left;
+			margin: 0 1em 1em 0;
+		}
+
+		/* aside "hours" styles */
+		aside {
+			background: url(/~dowlind2/asset/img/scallop.png) repeat-y left top;
+			background-color: #F6F3ED; /* Coffee shop color */
+			padding: 1em;
+			padding-left: 45px;
+			border-top-right-radius: 25px;
+			margin: 1em 2.5% 0 10%;
+		}
+		/* misc styles */
+		footer {
+			color: #EADDC4;
+			text-align: center;
+			font-size: .8em;
+			padding: 1em;
+		}
+		#award {
+			position: fixed;
+			top: 30px;
+			left: 50px;
+		}
+		h2 {
+			font-family: 'Stint Ultra Expanded', Georgia, serif;
+		}
+		.day {
+			color: #783F27;
+			font-family: verdana, sans-serif;
+			font-size: .8em;
+			text-transform: uppercase;
+		}
+
+	}
+
+	&#body006 {
+		margin:10px;
+		h1, h2, h3, h4, h5, h6 {
+			color:lightblue;
+		}
+		p {
+			margin:10px;
+		}
+		#dContentBox {
+			margin:21px;
+			position:absolute;
+			#dContent {
+				border: 1px solid gray;
+				float:left;
+				padding:14px;
+				padding-top:3px;
+				max-width: 75%;
+				width:auto;
+				#pHome {
+					margin-top:49px;
+				}
+			}
+			#dSidebar {
+				background-image: url("/~dowlind2/asset/img/escargot.jpg");
+				background-repeat: no-repeat;
+				background-size: 100%;
+				float:right;
+				height:345px;
+				margin-left:14px;
+				width:250px;
+				#dRibbon {
+					background-image: url("/~dowlind2/asset/img/blue-ribbon-sm.png");
+					background-repeat: no-repeat;
+					background-size: 100%;
+					height:125px;
+					width:125px;
+					z-index:2;
+				}
+			}
+		}
+	}
+	&#body005::after {
+		content: "";
+		background-image: url("/~dowlind2/asset/img/pewterpot.png");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		opacity: 0.09;
+		z-index:-10;
+	}
+}
+
+ol {
+	li {
+		margin-bottom:14px;
+	}
+}
+p {
+	padding: 0 0 0 14px;
+}
+ul {
+	padding:0 14px;
+	li {
+		list-style-type: none;
+		padding:3px 0;
+	}
+}
+
+i {
+	color:#aaa;
+	font-size: 12px;
+}
+img {
+	display:block;
+	height:auto;
+	&#imgCcLock {
+		width:300px;
+	}
+	&#imgPugTy {
+		width:300px;
+	}
+}
+
+.imgbox {
+	border:1px solid #333;
+	margin:7px auto;
+	padding:14px;
+	width:300px;
+}
